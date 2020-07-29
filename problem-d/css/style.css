@@ -61,7 +61,7 @@ input {
 button {
     height: 2.5rem;
     font-size: 1.5rem;
-    padding: 0.3rem;
+    padding: .3rem;
     
 }
 
@@ -75,6 +75,9 @@ a:hover {
 }
 
 .logo {
-    padding: 1em;
-    background-image: url(img/ischool-symbol-white.png);
+    padding-left: 1em;
+    padding-right: 1em;
+    background-image: url("../img/ischool-symbol-white.png");
+    background-position: left;
+    background-size: contain;
 }
