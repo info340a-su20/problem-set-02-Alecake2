@@ -33,6 +33,7 @@ nav {
 a {
     color: white;
     text-decoration: none;
+    padding-bottom: .8rem;
 }
 
 li {
@@ -65,13 +66,10 @@ button {
     
 }
 
-a:hover {
-    color: #b7a57a;
+a:hover, a:focus, a:active {
     border-bottom-color: #b7a57a;
     border-bottom-style: solid;
-    border-spacing: 0.8rem;
-    border-bottom-width: 0.6rem;
-    
+    border-bottom-width: .6rem;
 }
 
 .logo {
@@ -80,4 +78,5 @@ a:hover {
     background-image: url("../img/ischool-symbol-white.png");
     background-position: left;
     background-size: contain;
+    background-repeat: no-repeat;
 }
