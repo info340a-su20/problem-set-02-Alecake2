@@ -54,6 +54,7 @@ Instructions for achieving this appearance are detailed below. Note that you wil
 7. The search button should show a magnifying glass icon instead of the word "Search". You should replace the text with a [Font Awesome icon](https://fontawesome.com/icons/search?style=solid).
 
     - You will need to include the Font Awesome library (via CDN) in your `index.html` file. You can find the CDN link [here](https://cdnjs.com/libraries/font-awesome) 
+    
 
     - Add the element for the icon in place of the word "Search". You should also [flip the fa icon](https://fontawesome.com/how-to-use/on-the-web/styling/rotating-icons) so it faces the right way.
 
