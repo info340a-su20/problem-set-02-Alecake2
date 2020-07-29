@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+h1 {
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-collapse: collapse;
+
+}
+
+th {
+    text-align: left;
+    color: #1db954;
+    background-color: #d3d3d3;
+    height: 2rem;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+td, th {
+    padding:.5em;
+    border-bottom: 1px solid #d3d3d3
+}
+
+tr:nth-of-type(even) {
+    background-color:#eee;
+  }
+
+tbody tr:hover {
+    background-color: pink;
+}
